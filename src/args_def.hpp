@@ -115,7 +115,7 @@ static constexpr auto opts = args::Opts(
             .parameter_name("minWinBases")
             .description("Minimum number of bases in window (post-filtering) to perform spectral analysis")
             .DEFAULT_VALUE(10),
-        ARG(unsigned char, extended_search_eigengaps)
+        ARG(unsigned, extended_search_eigengaps)
             .parameter_name("lookaheadEigengaps")
             .description("Number of eigengaps to look ahead after a non-informative eigengap is encountered")
             .DEFAULT_VALUE(3),

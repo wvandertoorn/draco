@@ -80,7 +80,7 @@ private:
   unsigned alternative_check_permutations = 50;
   double min_null_stddev = 0.025;
   unsigned minBasesSize = 10;
-  unsigned char extended_search_eigengaps;
+  unsigned extended_search_eigengaps = 3;
 };
 
 
